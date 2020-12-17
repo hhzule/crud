@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.single-data {
+  background-color: rgb(240, 140, 140);
+  max-width: 500px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+}
+.single-data h2 {
+  color: white;
+  font-size: medium;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.btns {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  width: 100%;
+}
+.btns button {
+  background-color: white;
+  text-transform: capitalize;
+  border: none;
+  margin: 5px;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.heading {
+  width: 100%;
+}
+.primary {
+  margin: 0 130px;
+  padding: 50px;
+  background-color: bisque;
+}
+.primary form {
+  width: 100%;
+}
+.primary form input {
+  width: 450px;
+  margin: 5px;
+  border: none;
+  padding: 10px 0;
+}
+.primary form button {
+  margin: 5px;
+  width: 55px;
+  border: 1px solid lightgrey;
+  background-color: white;
+
+  padding: 10px 10px;
+}
